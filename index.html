@@ -8,74 +8,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-  <style>
-
-    :root {
-      @property --accent, initial;
-      --accent: green;
-    }
-    body {
-      background-color: #212529;
-      color: #fff;
-      font-family: lexend;
-      }
-      a {
-        color: var(--accent);
-      }
-
-    .hero {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      background-image: url("https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1720396800&semt=sph");
-      background-size: cover;
-      background-position: center;
-      padding: 50px;
-      color: white;
-    }
-
-    .hero h1, .hero p {
-      text-align: left;
-      max-width: 500px;
-    }
-    
-    .carousel-inner img {
-      width: 70vw;
-      height: 70vh;
-      object-fit: cover;
-      display: block;
-      margin: auto;
-    }
-    .carousel {
-      margin: 7vh 15vw 7vh 15vw;
-    }
-    .btn-success {
-      background: var(--accent);
-      border: var(--accent);
-    }
-    .btn-success:hover {
-      background-color: rgba(0, 128, 0, 0.8);
-    }
-  </style>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Intellecta</a>
+        <a class="navbar-brand" href="/">Intellecta</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="/about">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subjects</a>
+              <a class="nav-link" href="/subjects">Subjects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="/contacts">Contacts</a>
             </li>
           </ul>
         </div>
@@ -97,13 +49,13 @@
     <div class="carousel-item active">
       <img src="https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720396800&semt=sph" class="d-block" alt="MATH">
       <div class="carousel-caption d-md-block">
-        <a href="intellecta.it/math" class="btn btn-success">Explore Math</a>
+        <a href="/math" class="btn btn-success">Explore Math</a>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://www.stevens.edu/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fmviowpldu823%2F3DjsfDKUSWQBfdWMEbecCQ%2F24f09c374ddb299ee332352fd69e4042%2FSES-Computer-Science-1900862161.jpg%3Fw%3D1200%26h%3D675%26f%3Dcenter%26q%3D80%26fit%3Dfill&w=2400&q=80" class="d-block" alt="COMPUTER SCIENCE">
       <div class="carousel-caption d-md-block">
-        <a href="intellecta.it/cs" class="btn btn-success">Explore CS</a>
+        <a href="/cs" class="btn btn-success">Explore CS</a>
       </div>
     </div>
   </div>

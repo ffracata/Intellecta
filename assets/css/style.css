@@ -1,0 +1,111 @@
+:root {
+@property --accent, initial;
+--accent: green;
+}
+body {
+background-color: #212529;
+color: #fff;
+font-family: lexend;
+}
+a {
+color: var(--accent);
+}
+
+.hero {
+height: 100vh;
+display: flex;
+align-items: center;
+background-image: url("https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1720396800&semt=sph");
+background-size: cover;
+background-position: center;
+padding: 50px;
+color: white;
+}
+
+.hero h1, .hero p {
+text-align: left;
+max-width: 500px;
+}
+
+.carousel-inner img {
+width: 70vw;
+height: 70vh;
+object-fit: cover;
+display: block;
+margin: auto;
+}
+.carousel {
+margin: 7vh 15vw 7vh 15vw;
+}
+.btn-primary {
+background: var(--accent);
+border: var(--accent);
+}
+.btn-primary:hover {
+background: hsl(var(--accent), 100%, 30%);
+}
+
+.step-button {
+width: 80px;
+height: 80px;
+background-color: #858585;
+color: #333;
+font-size: 20px;
+text-decoration: none;
+transition: background-color 0.2s ease;
+margin-top: 12px;  /* Add margin around each button */
+position: relative;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.step-button:hover {
+background-color: #ccc;
+}
+
+.step-number {
+font-weight: bold;
+}
+
+.step-tooltip {
+    position: absolute;
+    transform: translateX(-200px);
+    background-color: #858585;
+    border: 1px solid #858585;
+    border-radius: 5%;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    display: none;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  /* Show tooltip on hover with display: inherit */
+  .step-button:hover .step-tooltip {
+    display: block;
+  }
+
+.step-container {
+position: relative;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 0 16px;
+margin: 0 auto; /* Center container horizontally */
+}
+
+.left {
+    left: 45px;
+}
+
+.superleft {
+    left: 70px;
+}
+
+.right {
+    right: 45px;
+}
+
+.superright {
+    right: 70px;
+}
+
