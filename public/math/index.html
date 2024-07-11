@@ -84,7 +84,7 @@
 
   <div class="d-flex">
     
-    <div class="d-flex flex-column p-3 text-white bg-dark sticky-top sidebar">
+    <div class="d-sm-flex d-none flex-column p-3 text-white bg-dark sticky-top sidebar">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4">Intellecta</span>
@@ -129,6 +129,31 @@
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#">Sign out</a></li>
         </ul>
+      </div>
+    </div>
+
+    <div class="d-flex d-sm-none p-3 text-white bg-dark position-fixed bottom-0 start-0 w-100 h-10 lowbar">
+      <div class="row w-100 m-0">  
+        <div class="col-3 d-flex align-items-center justify-content-center">  
+          <a href="/" class="nav-link active" aria-current="page">
+            <svg class="bi" width="31" height="31"><use xlink:href="#home"/></svg>
+          </a>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-center">
+          <a href="/math" class="nav-link text-white">
+            <svg class="bi" width="31" height="31"><use xlink:href="#table"/></svg>
+          </a>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-center">
+        <a href="/about" class="nav-link text-white">
+          <svg class="bi" width="31" height="31"><use xlink:href="#speedometer2"/></svg>
+        </a>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-center">
+        <a href="/contacts" class="nav-link text-white">
+          <svg class="bi" width="31" height="31"><use xlink:href="#grid"/></svg>
+        </a>
+        </div>
       </div>
     </div>
 

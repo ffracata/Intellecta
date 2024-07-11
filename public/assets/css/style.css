@@ -121,6 +121,11 @@ margin: 0 auto; /* Center container horizontally */
     border-right: 1px solid #858585;
 }
 
+.lowbar {
+  z-index: 2;
+  border-top: 1px solid #858585;
+}
+
 .path {
     flex: 1;
 }
