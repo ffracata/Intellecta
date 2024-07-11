@@ -125,6 +125,11 @@ margin: 0 auto; /* Center container horizontally */
     flex: 1;
 }
 
+.path img {
+  max-width: 35vw;
+  max-height: 35vh;
+}
+
 .bi {
     vertical-align: -.125em;
     pointer-events: none;
