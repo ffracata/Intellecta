@@ -1,5 +1,6 @@
 import os
 import markdown
+import mdx_math
 
 for art in os.listdir("articles/math"):
     path = os.path.join("articles/math", art)

@@ -1,1 +1,2 @@
 Markdown==3.6
+python_markdown_math==0.8
