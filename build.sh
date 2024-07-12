@@ -5,8 +5,8 @@ pip install -r requirements.txt
 
 # Check if installation was successful (optional)
 if [ $? -ne 0 ]; then
-  echo "Error: Failed to install requirements."
-  exit 1
+    echo "Error: Failed to install requirements."
+    exit 1
 fi
 
 # Run the Python script
