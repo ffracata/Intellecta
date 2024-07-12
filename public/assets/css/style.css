@@ -81,7 +81,7 @@ a {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../imgages/edu.jpg");
+  background-image: url("../images/edu.jpg");
   background-size: cover;
   background-position: center;
   padding: 50px;
