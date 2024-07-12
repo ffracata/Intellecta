@@ -4,6 +4,7 @@ import mdx_math
 
 for art in os.listdir("articles/math"):
     path = os.path.join("articles/math", art)
+    os.makedirs("public/math/articles", exist_ok=True)
     html_path = os.path.join("public/math/articles", os.path.splitext(art)[0] + ".html")
 
     with open(path, "r") as file:
